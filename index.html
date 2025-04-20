@@ -247,41 +247,181 @@
         </section>
 
         <section id="gallery">
-            <h2>Galería</h2>
-            <p>Algunos de nuestros trabajos recientes:</p>
-            <div class="gallery-grid">
-                <img src="tatuaje1.jpg" alt="Tatuaje 1">
-                <img src="tatuaje2.jpg" alt="Tatuaje 2">
-                <img src="tatuaje3.jpg" alt="Tatuaje 3">
-                <img src="tatuaje4.jpg" alt="Tatuaje 4">
-                <img src="tatuaje5.jpg" alt="Tatuaje 5">
-                <img src="tatuaje6.jpg" alt="Tatuaje 6">
-                <img src="tatuaje7.jpg" alt="Tatuaje 7">
-                <img src="tatuaje8.jpg" alt="Tatuaje 8">
-                <img src="tatuaje9.jpg" alt="Tatuaje 9">
-                <img src="tatuaje10.jpg" alt="Tatuaje 10">
-                <img src="tatuaje11.jpg" alt="Tatuaje 11">
-                <img src="tatuaje12.jpg" alt="Tatuaje 12">
-                <img src="tatuaje13.jpg" alt="Tatuaje 13">
-                <img src="tatuaje14.jpg" alt="Tatuaje 14">
-                <img src="tatuaje15.jpg" alt="Tatuaje 15">
-                <img src="tatuaje16.jpg" alt="Tatuaje 16">
-            </div>
-        </section>
+!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Silver Tattoo Studio - Tatuajes en Las Piedras</title>
 
-        <section id="contact">
-            <h2>Contacto</h2>
-            <p>Puedes contactarnos para agendar tu cita a través de nuestras redes sociales o WhatsApp.</p>
-            <div class="social-links">
-                <a href="https://www.instagram.com/s1lv3r_tattoo?igsh=MXdxN2swa25pNXNlbQ==" target="_blank">Instagram</a>
-                <a href="https://wa.me/59892975217" target="_blank">WhatsApp</a>
-            </div>
-        </section>
-    </div>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Silver Tattoo Studio es un estudio de tatuajes profesional ubicado en Las Piedras, Canelones. Tatuajes personalizados y diseños únicos.">
+  <meta name="keywords" content="tatuajes Las Piedras, tatuajes Uruguay, estudio de tatuajes, tatuadores en Las Piedras, tattoo Las Piedras, tatuajes personalizados, Silver Tattoo Studio">
+  <meta name="author" content="Silver Tattoo Studio" />
 
-    <footer>
-        <p>&copy; 2025 Silver Tattoo Studio. Todos los derechos reservados.</p>
-    </footer>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #111;
+      color: #eee;
+    }
+
+    header {
+      background-color: #222;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .logo {
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h1, h2 {
+      color: #ffcc00;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 2px solid #444;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #eee;
+      text-decoration: none;
+      border: 1px solid #eee;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: all 0.3s;
+    }
+
+    .social-links a:hover {
+      background-color: #ffcc00;
+      color: #000;
+      border-color: #ffcc00;
+    }
+
+    footer {
+      background-color: #222;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Silver Tattoo Studio Logo" class="logo" />
+    <h1>Silver Tattoo Studio</h1>
+  </header>
+
+  <nav>
+    <a href="#about">Inicio</a>
+    <a href="#services">Servicios</a>
+    <a href="#gallery">Galería</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+
+  <div class="content">
+    <section id="about">
+      <h2>Estudio de Tatuajes en Las Piedras</h2>
+      <p>
+        Bienvenido a <strong>Silver Tattoo Studio</strong>, tu <strong>estudio de tatuajes</strong> profesional en <strong>Las Piedras, Canelones, Uruguay</strong>.
+        Nos especializamos en <strong>tatuajes personalizados</strong> y <strong>diseños únicos</strong> que reflejan tu estilo y personalidad.
+      </p>
+      <p>
+        Si buscas <strong>tatuadores en Las Piedras</strong> con experiencia, dedicación y creatividad, estás en el lugar indicado.
+        Trabajamos en un ambiente seguro, higiénico y con materiales de alta calidad.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Tatuajes personalizados</li>
+        <li>Diseños en blanco y negro o a color</li>
+        <li>Coberturas y retoques</li>
+        <li>Estilos: realismo, tradicional, lineal, minimalista y más</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Galería</h2>
+      <p>Algunos de nuestros trabajos recientes:</p>
+      <div class="gallery-grid">
+        <img src="tatuaje1.jpg" alt="Tatuaje 1">
+        <img src="tatuaje2.jpg" alt="Tatuaje 2">
+        <img src="tatuaje3.jpg" alt="Tatuaje 3">
+        <img src="tatuaje4.jpg" alt="Tatuaje 4">
+        <img src="tatuaje5.jpg" alt="Tatuaje 5">
+        <img src="tatuaje6.jpg" alt="Tatuaje 6">
+        <img src="tatuaje7.jpg" alt="Tatuaje 7">
+        <img src="tatuaje8.jpg" alt="Tatuaje 8">
+        <img src="tatuaje9.jpg" alt="Tatuaje 9">
+        <img src="tatuaje10.jpg" alt="Tatuaje 10">
+        <img src="tatuaje11.jpg" alt="Tatuaje 11">
+        <img src="tatuaje12.jpg" alt="Tatuaje 12">
+        <img src="tatuaje13.jpg" alt="Tatuaje 13">
+        <img src="tatuaje14.jpg" alt="Tatuaje 14">
+        <img src="tatuaje15.jpg" alt="Tatuaje 15">
+        <img src="tatuaje16.jpg" alt="Tatuaje 16">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Agenda tu cita o consulta por WhatsApp o Instagram:</p>
+      <div class="social-links">
+        <a href="https://wa.me/59892975217" target="_blank">WhatsApp</a>
+        <a href="https://www.instagram.com/s1lv3r_tattoo?igsh=MXdxN2swa25pNXNlbQ==" target="_blank">Instagram</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Silver Tattoo Studio - Tatuajes en Las Piedras</p>
+  </footer>
 
 </body>
 </html>
